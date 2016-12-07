@@ -11,10 +11,15 @@
     <blti:title>Biblioteca Virtual Pearson</blti:title>
     <blti:description>Biblioteca Virtual Pearson</blti:description>
     <blti:icon></blti:icon>
-    <blti:launch_url>https://univesp.bv3.digitalpages.com.br/users/launcher.lti</blti:launch_url>
     <blti:extensions platform="canvas.instructure.com">
-      <lticm:property name="tool_id">pearson-univesp</lticm:property>
       <lticm:property name="privacy_level">public</lticm:property>
+      <lticm:options name="course_navigation">
+        <lticm:property name="url">http://univesp.bv3.digitalpages.com.br/users/launcher.lti</lticm:property>
+        <lticm:property name="text">Biblioteca Virtual Pearson</lticm:property>
+        <lticm:property name="visibility">public</lticm:property>
+        <lticm:property name="default">enabled</lticm:property>
+        <lticm:property name="enabled">true</lticm:property>
+      </lticm:options>
     </blti:extensions>
     <cartridge_bundle identifierref="BLTI001_Bundle"/>
     <cartridge_icon identifierref="BLTI001_Icon"/>
